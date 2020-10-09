@@ -1,0 +1,22 @@
+{
+  "name": "typescript-lessons",
+  "version": "1.0.0",
+  "description": "My repository which contains my progress in TypeScript lessons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-jaihyek-choi/typescript-lessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-jaihyek-choi/typescript-lessons/issues"
+  },
+  "homepage": "https://github.com/john-jaihyek-choi/typescript-lessons#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
