@@ -1,7 +1,12 @@
 const person = {
     age: 30,
-    name: "John"
+    name: "John",
+    hobbies: ['Sports', 'Cooking']
 };
 
-console.log(person.nickName);
+for(let hobby of person.hobbies) {
+    console.log(hobby.toUpperCase());
+}
+
+console.log(person.name);
 
