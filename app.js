@@ -1,10 +1,14 @@
-var person = {
-    age: 30,
-    name: "John",
-    hobbies: ['Sports', 'Cooking']
-};
-for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
-    console.log(hobby.toUpperCase());
+function combine(input1, input2, resultConversion) {
+    var result;
+    if (typeof input1 === 'number' && typeof input2 === 'number' || resultConversion === 'as-number') {
+        result = +input1 + +input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
 }
-console.log(person.name);
+var combinedAges = combine(30, 26, 'as-number');
+console.log(combinedAges);
+var combinedNames = combine('Max', 'Anna', "as-number");
+console.log(combinedNames);
