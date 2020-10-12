@@ -9,9 +9,9 @@ function sum(num1: number, num2: number, showResult: boolean, phrase: string) {
 
 const number1 = 5;
 const number2 = 2.5;
-const printResult = true;
+const showResult = true;
 const resultPhrase = "Result is: ";
 
-const result = sum(number1, number2, printResult, resultPhrase);
+const result = sum(number1, number2, showResult, resultPhrase);
 
 console.log(result);
